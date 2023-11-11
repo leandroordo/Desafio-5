@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+p {
+  font-size: 15px;
+}
+
+.code {
+  font-family: Consolas, monospace, Consolas, "Courier New", monospace;
+  font-size: 15px;
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.keyword {
+  color: #c678dd;
+}
+
+.var {
+  color: #e5c07b;
+}
+.symbol {
+  color: #56b6c2;
+}
+.constant {
+  color: #d19a66;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-ejercicio {
+  padding-right: 10px;
+}
+
+.item-ejercicio p {
+  color: white;
+}
+
+.ejercicio {
+  background-color: #15222e;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.console {
+  color: #98c379;
+  background-color: #15222e;
+  font-family: "Courier New", monospace;
+  padding: 16px;
+  border: solid white 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.consoleTitulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #499811;
+  background-color: rgb(231, 240, 222);
+  padding: 4px;
+  margin-top: 16px;
+}
